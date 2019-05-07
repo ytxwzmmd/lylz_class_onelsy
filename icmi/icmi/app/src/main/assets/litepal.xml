@@ -1,0 +1,13 @@
+<litepal>
+    <!--数据库的名称-->
+    <dbname value="cool_weater"/>
+    <!--配置数据库版本号&#45;&#45;便于更新库-->
+    <version value="1"/>
+    <!--将数据库表所对于的实体类添加到配置列表中，便于第一次在操作数据库的时候自动创建对于的库表。-->
+    <!--注意：若空间不足或容量不足时，会报错-->
+    <list>
+        <mapping class="com.example.icmi.db.Province"/>
+        <mapping class="com.example.icmi.db.City"/>
+        <mapping class="com.example.icmi.db.County"/>
+    </list>
+</litepal>
